@@ -509,7 +509,12 @@
         @media (max-width: 768px) {
             h1 { font-size: 2.5rem; }
             section { padding: 4rem 1.5rem; }
-            header { padding: 0 1.5rem; }
+            header { 
+                padding: 140px 1.5rem 4rem 1.5rem; /* Increased top padding to clear nav */
+                display: block; /* Remove flex centering */
+                min-height: auto; /* Allow content to dictate height */
+                height: auto;
+            }
             .nav-links { display: none; }
             
             .hero-contact-info {
@@ -525,6 +530,35 @@
             .project-header i {
                 font-size: 1.25rem;
             }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            .hero-subtitle { font-size: 1rem; }
+            
+            .cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-contact-info {
+                word-break: break-all; /* Ensure long emails don't overflow */
+            }
+
+            .contact-card {
+                min-width: 100%; /* Full width cards on small screens */
+            }
+        }
+    </style>
+    <style>
+        /* Fix for scroll positioning with fixed header */
+        html {
+            scroll-padding-top: 100px;
         }
     </style>
 </head>
