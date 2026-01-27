@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asif Nawaz - Principal Software Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
@@ -421,16 +422,26 @@
         /* Contact Section */
         .contact-container {
             text-align: center;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
+            width: 100%;
         }
 
         .contact-info {
-            display: flex; /* Changed from grid to flex for better centering */
+            display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             margin-top: 3rem;
+        }
+
+        /* Wraps the anchors to control layout */
+        .contact-info > a {
+            display: flex;
+            flex: 1;
+            min-width: 280px;
+            max-width: 350px;
+            text-decoration: none;
         }
 
         .contact-card {
@@ -439,13 +450,12 @@
             border-radius: 12px;
             border: 1px solid rgba(255, 255, 255, 0.05);
             transition: var(--transition);
-            flex: 1; /* Allow consistent sizing */
-            min-width: 250px;
-            max-width: 350px;
+            width: 100%;
+            height: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center content horizontally */
-            justify-content: center; /* Center content vertically */
+            align-items: center;
+            justify-content: center;
         }
 
         .contact-card:hover {
@@ -550,8 +560,9 @@
                 word-break: break-all; /* Ensure long emails don't overflow */
             }
 
-            .contact-card {
+            .contact-info > a {
                 min-width: 100%; /* Full width cards on small screens */
+                max-width: 100%;
             }
         }
     </style>
@@ -568,7 +579,7 @@
     <div class="scroll-progress"></div>
 
     <nav>
-        <div class="logo">AN.</div>
+        <div class="logo">Asif Nawaz</div>
         <ul class="nav-links">
             <li><a href="#about">Home</a></li>
             <li><a href="#about-me">Summary</a></li>
