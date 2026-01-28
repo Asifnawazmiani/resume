@@ -1,0 +1,31 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Name: Asif Nawaz
+    Title: Principal Software Engineer
+    Contact: asifnawaz.miani@gmail.com
+    Location: Islamabad, Pakistan
+    LinkedIn: linkedin.com/in/asifnawazmiani
+
+# THANKS
+
+    To all the open-source communities and developers
+    who make awesome tools and libraries available.
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3, JavaScript
+    Components: Font Awesome 6.0.0
+    Tools: VS Code, Git
+    Hosting: GitHub Pages
+    IDE: Visual Studio Code
+    Version Control: Git
+
+# SITE
+
+    Last update: 2026/01/29
+    Language: English
+    Doctype: HTML5
+    Primary Colors: #0f172a, #38bdf8, #6366f1
