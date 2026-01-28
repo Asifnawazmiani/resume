@@ -52,7 +52,7 @@ User-agent: YouBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://asifnawazmiani.github.io/sitemap.xml
+Sitemap: https://asifnawazmiani.github.io/resume/sitemap.xml
 
 # Crawl delay (optional - 10 seconds between requests)
 Crawl-delay: 10
